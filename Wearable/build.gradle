@@ -1,0 +1,23 @@
+apply plugin: 'com.android.application'
+
+dependencies {
+    compile 'com.google.android.gms:play-services-wearable:8.4.0'
+
+    compile project(path: ':commons')
+}
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
+    defaultConfig {
+        versionCode 1
+        versionName "1.0"
+        minSdkVersion 23
+        targetSdkVersion 26
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+}

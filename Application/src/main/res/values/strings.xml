@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // Application
+    <string name="app_name">NewTestApp</string>
+
+    // Main menu
+    <string name="menu_clear_profile">Clear profiles</string>
+    <string name="menu_close">Close options</string>
+</resources>

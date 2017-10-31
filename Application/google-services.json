@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "630785481251",
+    "firebase_url": "https://lab3-f779b.firebaseio.com",
+    "project_id": "lab3-f779b",
+    "storage_bucket": "lab3-f779b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630785481251:android:2db3539f860a4da4",
+        "android_client_info": {
+          "package_name": "kurzo.yann.lab3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630785481251-lti64cul1k5il6rr46j3pbh7igfn5icv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kurzo.yann.lab3",
+            "certificate_hash": "8e11f43e1172f6633897a4b7113d341df3e0987f"
+          }
+        },
+        {
+          "client_id": "630785481251-gnv90aq49r1o55cjkeejcuutpv569v7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA2Z9fSfdoDcXscNaVitMhADnNUS9xC6o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630785481251-gnv90aq49r1o55cjkeejcuutpv569v7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

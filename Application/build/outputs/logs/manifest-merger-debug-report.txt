@@ -1,0 +1,267 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml:3:5-30
+	android:versionName
+		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml:5:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Yann\.android\build-cache\99d82373a7b3047346062df1f42ea908b8d7b482\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml:7:5-29:19
+MERGED from [Lab3:commons:unspecified] C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\commons\build\intermediates\bundles\default\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-wearable:11.0.4] C:\Users\Yann\.android\build-cache\3eb293abea8108b82380dd55c94901005f4b27e4\output\AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:design:25.3.1] C:\Users\Yann\.android\build-cache\fd70a94dedc8075cdda8b7fa5d842778029669bc\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Yann\.android\build-cache\26e4fe9c888ff350f9eb561ba5da4aa8bece7160\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Yann\.android\build-cache\043f184b9892caf743db900088aec1505009595c\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Yann\.android\build-cache\16a581ab18e4e9f26fb8a01affd7c70110a7d368\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Yann\.android\build-cache\aadefcf1570e17d702b946eb9f29b09994025870\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Yann\.android\build-cache\a15f10c5cc1de05044ed4528ec71d860d3ee2828\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:11.0.4] C:\Users\Yann\.android\build-cache\39fd856f13e5402ef09c79c7e8174d29da77758a\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Yann\.android\build-cache\288b1aa4451a28ee582e50f188b2cba111bb4b9e\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\Yann\.android\build-cache\5f7a6435fdae24fe06564e43eed624c029763412\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Yann\.android\build-cache\99d82373a7b3047346062df1f42ea908b8d7b482\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Yann\.android\build-cache\abb90dc963daef02f73994ec177c47d7becd2550\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Yann\.android\build-cache\9beea5a792615435c64f31848da858c9e4f691f8\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Yann\.android\build-cache\62e7b30bad9da3886b7458942e308f49c750e05d\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Yann\.android\build-cache\40aad85b8796ae76d1e2ea6475d1fc31b7af2f4c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Yann\.android\build-cache\56e4f99cc123d30c9b01ea6c37b09eb6164207dc\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Yann\.android\build-cache\b1eb2b0b41bb3f3ac89674c00cb67d555d141bab\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Yann\.android\build-cache\f3a60ff2230db601f6b7d61a37ae229cfe9f9fd0\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Yann\.android\build-cache\367c8c67d5667e2660683032384efd122ff46b52\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Yann\.android\build-cache\cb9af73ac46dcb11f9ee33bfc9e80422cc4950fc\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml:11:9-41
+	android:allowBackup
+		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml:9:9-43
+	android:theme
+		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml:10:9-53
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml:12:9-14:69
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Yann\.android\build-cache\62e7b30bad9da3886b7458942e308f49c750e05d\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml:14:13-66
+	android:name
+		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml:13:13-58
+activity#kurzo.yann.lab3.MainActivity
+ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml:16:9-25:20
+	android:label
+		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml:18:13-45
+	android:launchMode
+		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml:19:13-44
+	android:name
+		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml:17:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml:23:27-74
+activity#kurzo.yann.lab3.ValidationActivity
+ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml:26:9-28:20
+	android:name
+		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml:27:13-47
+uses-sdk
+INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [Lab3:commons:unspecified] C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\commons\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-wearable:11.0.4] C:\Users\Yann\.android\build-cache\3eb293abea8108b82380dd55c94901005f4b27e4\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:design:25.3.1] C:\Users\Yann\.android\build-cache\fd70a94dedc8075cdda8b7fa5d842778029669bc\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Yann\.android\build-cache\26e4fe9c888ff350f9eb561ba5da4aa8bece7160\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Yann\.android\build-cache\043f184b9892caf743db900088aec1505009595c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Yann\.android\build-cache\16a581ab18e4e9f26fb8a01affd7c70110a7d368\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Yann\.android\build-cache\2d3cf701d44bed5261228596cde2e931a902f698\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Yann\.android\build-cache\aadefcf1570e17d702b946eb9f29b09994025870\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Yann\.android\build-cache\a15f10c5cc1de05044ed4528ec71d860d3ee2828\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database:11.0.4] C:\Users\Yann\.android\build-cache\eef72c0ad86cdb7d518699c2a94c45718f59fa6d\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.0.4] C:\Users\Yann\.android\build-cache\a06bb884b64f4521d2a2710b3435d0a40188261d\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage:11.0.4] C:\Users\Yann\.android\build-cache\ae988ae610fe9544e6df974384596317b9f4509a\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.0.4] C:\Users\Yann\.android\build-cache\c68d24fdacf5bd03aa83fdb1ed05d54ed6d21519\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-auth:11.0.4] C:\Users\Yann\.android\build-cache\39fd856f13e5402ef09c79c7e8174d29da77758a\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Yann\.android\build-cache\288b1aa4451a28ee582e50f188b2cba111bb4b9e\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\Yann\.android\build-cache\5f7a6435fdae24fe06564e43eed624c029763412\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Yann\.android\build-cache\99d82373a7b3047346062df1f42ea908b8d7b482\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Yann\.android\build-cache\abb90dc963daef02f73994ec177c47d7becd2550\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Yann\.android\build-cache\9beea5a792615435c64f31848da858c9e4f691f8\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Yann\.android\build-cache\62e7b30bad9da3886b7458942e308f49c750e05d\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Yann\.android\build-cache\40aad85b8796ae76d1e2ea6475d1fc31b7af2f4c\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Yann\.android\build-cache\56e4f99cc123d30c9b01ea6c37b09eb6164207dc\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Yann\.android\build-cache\b1eb2b0b41bb3f3ac89674c00cb67d555d141bab\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Yann\.android\build-cache\f3a60ff2230db601f6b7d61a37ae229cfe9f9fd0\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Yann\.android\build-cache\367c8c67d5667e2660683032384efd122ff46b52\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Yann\.android\build-cache\cb9af73ac46dcb11f9ee33bfc9e80422cc4950fc\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Yann\.android\build-cache\fd70a94dedc8075cdda8b7fa5d842778029669bc\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\Yann\.android\build-cache\fd70a94dedc8075cdda8b7fa5d842778029669bc\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Yann\.android\build-cache\26e4fe9c888ff350f9eb561ba5da4aa8bece7160\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Yann\.android\build-cache\043f184b9892caf743db900088aec1505009595c\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Yann\.android\build-cache\16a581ab18e4e9f26fb8a01affd7c70110a7d368\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Yann\.android\build-cache\2d3cf701d44bed5261228596cde2e931a902f698\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Yann\.android\build-cache\aadefcf1570e17d702b946eb9f29b09994025870\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Yann\.android\build-cache\40aad85b8796ae76d1e2ea6475d1fc31b7af2f4c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Yann\.android\build-cache\56e4f99cc123d30c9b01ea6c37b09eb6164207dc\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Yann\.android\build-cache\b1eb2b0b41bb3f3ac89674c00cb67d555d141bab\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Yann\.android\build-cache\f3a60ff2230db601f6b7d61a37ae229cfe9f9fd0\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Yann\.android\build-cache\367c8c67d5667e2660683032384efd122ff46b52\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Yann\.android\build-cache\cb9af73ac46dcb11f9ee33bfc9e80422cc4950fc\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Yann\.android\build-cache\fd70a94dedc8075cdda8b7fa5d842778029669bc\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Yann\.android\build-cache\fd70a94dedc8075cdda8b7fa5d842778029669bc\output\AndroidManifest.xml:26:9-47
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Yann\.android\build-cache\288b1aa4451a28ee582e50f188b2cba111bb4b9e\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Yann\.android\build-cache\288b1aa4451a28ee582e50f188b2cba111bb4b9e\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Yann\.android\build-cache\288b1aa4451a28ee582e50f188b2cba111bb4b9e\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Yann\.android\build-cache\288b1aa4451a28ee582e50f188b2cba111bb4b9e\output\AndroidManifest.xml:19:19-85
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Yann\.android\build-cache\99d82373a7b3047346062df1f42ea908b8d7b482\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:21:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Yann\.android\build-cache\99d82373a7b3047346062df1f42ea908b8d7b482\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Yann\.android\build-cache\99d82373a7b3047346062df1f42ea908b8d7b482\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\Yann\.android\build-cache\99d82373a7b3047346062df1f42ea908b8d7b482\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\Yann\.android\build-cache\9c85a8d1e186eefcedf19021c3dec8fb67d7bb41\output\AndroidManifest.xml:33:16-90
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:24:17-71
+		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:26:22-76
+		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:33:27-58
+		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:43:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\Yann\.android\build-cache\7e49d625da36106a0ded50228ea9023e2a6355fc\output\AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Yann\.android\build-cache\abb90dc963daef02f73994ec177c47d7becd2550\output\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Yann\.android\build-cache\abb90dc963daef02f73994ec177c47d7becd2550\output\AndroidManifest.xml:6:19-78
+		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Application\src\main\AndroidManifest.xml
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Yann\.android\build-cache\abb90dc963daef02f73994ec177c47d7becd2550\output\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Yann\.android\build-cache\abb90dc963daef02f73994ec177c47d7becd2550\output\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\Yann\.android\build-cache\abb90dc963daef02f73994ec177c47d7becd2550\output\AndroidManifest.xml:6:79-143
