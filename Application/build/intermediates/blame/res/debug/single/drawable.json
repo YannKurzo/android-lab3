@@ -64,24 +64,24 @@
         "source": "C:\\Users\\Yann\\.android\\build-cache\\26e4fe9c888ff350f9eb561ba5da4aa8bece7160\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
-        "merged": "C:\\Users\\Yann\\Documents\\AndroidStudioProjects\\Lab3\\Application\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\Yann\\.android\\build-cache\\26e4fe9c888ff350f9eb561ba5da4aa8bece7160\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "C:\\Users\\Yann\\Documents\\AndroidStudioProjects\\Lab3\\Application\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Yann\\.android\\build-cache\\26e4fe9c888ff350f9eb561ba5da4aa8bece7160\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
         "merged": "C:\\Users\\Yann\\Documents\\AndroidStudioProjects\\Lab3\\Application\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
         "source": "C:\\Users\\Yann\\.android\\build-cache\\288b1aa4451a28ee582e50f188b2cba111bb4b9e\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Yann\\Documents\\AndroidStudioProjects\\Lab3\\Application\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\Yann\\.android\\build-cache\\26e4fe9c888ff350f9eb561ba5da4aa8bece7160\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Yann\\Documents\\AndroidStudioProjects\\Lab3\\Application\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\Yann\\.android\\build-cache\\26e4fe9c888ff350f9eb561ba5da4aa8bece7160\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "merged": "C:\\Users\\Yann\\Documents\\AndroidStudioProjects\\Lab3\\Application\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Yann\\.android\\build-cache\\26e4fe9c888ff350f9eb561ba5da4aa8bece7160\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "C:\\Users\\Yann\\Documents\\AndroidStudioProjects\\Lab3\\Application\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
         "source": "C:\\Users\\Yann\\.android\\build-cache\\288b1aa4451a28ee582e50f188b2cba111bb4b9e\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yann\\Documents\\AndroidStudioProjects\\Lab3\\Application\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Yann\\.android\\build-cache\\26e4fe9c888ff350f9eb561ba5da4aa8bece7160\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\Yann\\Documents\\AndroidStudioProjects\\Lab3\\Application\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
