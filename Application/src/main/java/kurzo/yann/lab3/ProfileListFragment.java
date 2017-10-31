@@ -29,8 +29,10 @@ public class ProfileListFragment extends ListFragment {
     private View fragmentView;
     private ArrayAdapter adapter;
 
-    // Database variables
-    MyFirebase mMyFirebase;
+    // Database
+    private MyFirebase mMyFirebase;
+
+    public AlarmConfiguration mAlarmConfig;
 
     @Nullable
     @Override
@@ -50,6 +52,9 @@ public class ProfileListFragment extends ListFragment {
         // Create list adapter, binding the array of data to the listView
         adapter = new ProfileAdapter(getActivity(), R.layout.row_layout);
         setListAdapter(adapter);
+
+        // Set alarm configuration
+        mAlarmConfig = new AlarmConfiguration(getContext());
     }
 
     @Override
@@ -75,6 +80,9 @@ public class ProfileListFragment extends ListFragment {
 
     public void clearProfileList() {
         adapter.clear();
+        //mMyFirebase.clearProfilesFromFirebase();
+        //mMyFirebase.clearImagesFromStorage();
+        mAlarmConfig.cancelAlarms();
     }
 
     @Override

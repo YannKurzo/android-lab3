@@ -3,6 +3,7 @@
     package="kurzo.yann.lab3">
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
 
     <application
         android:allowBackup="true"
@@ -26,6 +27,7 @@
         <activity
             android:name=".ValidationActivity">
         </activity>
+        <receiver android:name=".OnAlarmReceiver" />
     </application>
 
 </manifest>

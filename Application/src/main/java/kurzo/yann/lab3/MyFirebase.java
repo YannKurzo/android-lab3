@@ -21,6 +21,7 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
 import java.io.ByteArrayOutputStream;
+import java.util.Calendar;
 import java.util.Date;
 
 import kurzo.yann.lab3.commons.Profile;
@@ -34,6 +35,7 @@ import static kurzo.yann.lab3.commons.Profile.*;
  */
 
 public class MyFirebase implements ValueEventListener {
+    // Tag for Logcat
     private static final String TAG = "MyFirebase";
 
     // Profile database group
@@ -61,6 +63,8 @@ public class MyFirebase implements ValueEventListener {
     public void onDataChange(DataSnapshot dataSnapshot) {
         // Clear profile list before reloading
         mProfileListFragment.clearProfileList();
+        mProfileListFragment.mAlarmConfig.cancelAlarms();
+        int key = 123;
 
         // For each profile
         for (final DataSnapshot profileData : dataSnapshot.getChildren()) {
@@ -72,6 +76,12 @@ public class MyFirebase implements ValueEventListener {
                 profile.nickname = profileData.child(ID_NICKNAME).getValue(String.class);
                 profile.description = profileData.child(ID_DESCRITPION).getValue(String.class);
                 profile.birthday = new Date(profileData.child(ID_BIRTHDAY).getValue(Long.class));
+
+                // Set alarm
+                Calendar birthday = Calendar.getInstance();
+                birthday.setTime(profile.birthday);
+                mProfileListFragment.mAlarmConfig.setAlarm(profile.name, birthday, key);
+                key++;
 
                 // Get photo on Firebase storage (photo url stored in online profile)
                 StorageReference storageRef = FirebaseStorage.getInstance()

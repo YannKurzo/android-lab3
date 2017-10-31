@@ -9,13 +9,13 @@
         android:targetSdkVersion="26" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <meta-data
         android:name="android.support.VERSION"
         android:value="25.3.1" />
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
@@ -45,6 +45,9 @@
         </activity>
         <activity android:name="kurzo.yann.lab3.ValidationActivity" >
         </activity>
+
+        <receiver android:name="kurzo.yann.lab3.OnAlarmReceiver" />
+
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
