@@ -8,11 +8,15 @@
         "source": "C:\\Users\\Yann\\.android\\build-cache\\c40a0e7e3b5f90b6145f8556f2842b31b615a51c\\output\\res\\color\\common_plus_signin_btn_text_dark.xml"
     },
     {
+        "merged": "C:\\Users\\Yann\\Documents\\AndroidStudioProjects\\Lab3\\commons\\build\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\Yann\\.android\\build-cache\\288b1aa4451a28ee582e50f188b2cba111bb4b9e\\output\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
         "merged": "C:\\Users\\Yann\\Documents\\AndroidStudioProjects\\Lab3\\commons\\build\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\Yann\\.android\\build-cache\\c40a0e7e3b5f90b6145f8556f2842b31b615a51c\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+        "source": "C:\\Users\\Yann\\.android\\build-cache\\288b1aa4451a28ee582e50f188b2cba111bb4b9e\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "C:\\Users\\Yann\\Documents\\AndroidStudioProjects\\Lab3\\commons\\build\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\Yann\\.android\\build-cache\\c40a0e7e3b5f90b6145f8556f2842b31b615a51c\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+        "source": "C:\\Users\\Yann\\.android\\build-cache\\288b1aa4451a28ee582e50f188b2cba111bb4b9e\\output\\res\\color\\common_google_signin_btn_text_light.xml"
     }
 ]

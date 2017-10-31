@@ -134,10 +134,6 @@
     <orderEntry type="library" exported="" name="firebase-common-11.0.4" level="project" />
     <orderEntry type="module" module-name="commons" exported="" />
     <orderEntry type="library" exported="" name="android-android-26" level="project" />
-    <orderEntry type="library" exported="" name="play-services-wearable-8.4.0" level="project" />
-    <orderEntry type="library" exported="" name="support-v4-23.0.0" level="project" />
-    <orderEntry type="library" exported="" name="play-services-base-8.4.0" level="project" />
-    <orderEntry type="library" exported="" name="play-services-basement-8.4.0" level="project" />
-    <orderEntry type="library" exported="" name="support-annotations-23.0.0" level="project" />
+    <orderEntry type="library" exported="" name="support-annotations-25.2.0" level="project" />
   </component>
 </module>

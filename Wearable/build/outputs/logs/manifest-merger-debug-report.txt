@@ -18,9 +18,16 @@ ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\
 application
 ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:7:5-52:19
 MERGED from [Lab3:commons:unspecified] C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\commons\build\intermediates\bundles\default\AndroidManifest.xml:11:5-20
-MERGED from [com.google.android.gms:play-services-wearable:8.4.0] C:\Users\Yann\.android\build-cache\f54401e018f4f2e396c5e8a00898229cc32e5752\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Yann\.android\build-cache\e85149be34d91f61fd94d45d595095affef9c9cb\output\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Yann\.android\build-cache\55483088ff5872da265dc7f11fdc511a05b181cd\output\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:11.0.4] C:\Users\Yann\.android\build-cache\3eb293abea8108b82380dd55c94901005f4b27e4\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Yann\.android\build-cache\288b1aa4451a28ee582e50f188b2cba111bb4b9e\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Yann\.android\build-cache\9beea5a792615435c64f31848da858c9e4f691f8\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Yann\.android\build-cache\62e7b30bad9da3886b7458942e308f49c750e05d\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Yann\.android\build-cache\53e0c4edea8139915db90234ae224a58b9fa6d6f\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Yann\.android\build-cache\c2e87b362e5fb55d9b945ca1b2ddc4ff32136a1f\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Yann\.android\build-cache\752bd23173d7d1e984f5376153d7b6627aec4276\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Yann\.android\build-cache\fda98c96246b4f2b1037c8f7d249e15470ef8fa1\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Yann\.android\build-cache\3ad45b852174252cafcd51527cad5834a946db96\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Yann\.android\build-cache\e75a0c55a7331600813f35f13e52e84dcd2a9f53\output\AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:10:9-41
 	android:allowBackup
@@ -37,7 +44,7 @@ ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\
 		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:14:13-66
 meta-data#com.google.android.gms.version
 ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:17:9-19:65
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Yann\.android\build-cache\e85149be34d91f61fd94d45d595095affef9c9cb\output\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Yann\.android\build-cache\62e7b30bad9da3886b7458942e308f49c750e05d\output\AndroidManifest.xml:20:9-121
 	android:value
 		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:19:9-62
 	android:name
@@ -95,13 +102,29 @@ ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\
 uses-sdk
 INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [Lab3:commons:unspecified] C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\commons\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-wearable:8.4.0] C:\Users\Yann\.android\build-cache\f54401e018f4f2e396c5e8a00898229cc32e5752\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Yann\.android\build-cache\c40a0e7e3b5f90b6145f8556f2842b31b615a51c\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Yann\.android\build-cache\e85149be34d91f61fd94d45d595095affef9c9cb\output\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Yann\.android\build-cache\55483088ff5872da265dc7f11fdc511a05b181cd\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.0.4] C:\Users\Yann\.android\build-cache\3eb293abea8108b82380dd55c94901005f4b27e4\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Yann\.android\build-cache\288b1aa4451a28ee582e50f188b2cba111bb4b9e\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Yann\.android\build-cache\9beea5a792615435c64f31848da858c9e4f691f8\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Yann\.android\build-cache\62e7b30bad9da3886b7458942e308f49c750e05d\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Yann\.android\build-cache\53e0c4edea8139915db90234ae224a58b9fa6d6f\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Yann\.android\build-cache\c2e87b362e5fb55d9b945ca1b2ddc4ff32136a1f\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Yann\.android\build-cache\752bd23173d7d1e984f5376153d7b6627aec4276\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Yann\.android\build-cache\fda98c96246b4f2b1037c8f7d249e15470ef8fa1\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Yann\.android\build-cache\3ad45b852174252cafcd51527cad5834a946db96\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Yann\.android\build-cache\e75a0c55a7331600813f35f13e52e84dcd2a9f53\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.2.0] C:\Users\Yann\.android\build-cache\53e0c4edea8139915db90234ae224a58b9fa6d6f\output\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
 		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Yann\.android\build-cache\288b1aa4451a28ee582e50f188b2cba111bb4b9e\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Yann\.android\build-cache\288b1aa4451a28ee582e50f188b2cba111bb4b9e\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Yann\.android\build-cache\288b1aa4451a28ee582e50f188b2cba111bb4b9e\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Yann\.android\build-cache\288b1aa4451a28ee582e50f188b2cba111bb4b9e\output\AndroidManifest.xml:19:19-85
