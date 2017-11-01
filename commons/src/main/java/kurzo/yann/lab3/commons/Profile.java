@@ -6,9 +6,6 @@ import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.util.Log;
-import android.view.View;
-import android.widget.EditText;
-import android.widget.ImageView;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -19,7 +16,7 @@ import com.google.android.gms.wearable.Wearable;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Date;
+import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
 
 public class Profile {
@@ -34,14 +31,14 @@ public class Profile {
     public String name;
     public String nickname;
     public String description;
-    public Date birthday;
+    public Calendar birthday;
     public BitmapDrawable photo;
 
     public Profile() {
-        // Empty constructor
+        this.birthday = Calendar.getInstance();
     }
 
-    public Profile(String name, String nickname, String description, Date birthday, Drawable photo) {
+    public Profile(String name, String nickname, String description, Calendar birthday, Drawable photo) {
         this.name = name;
         this.nickname = nickname;
         this.description = description;
@@ -54,7 +51,8 @@ public class Profile {
         name = map.getString(ID_NAME);
         nickname = map.getString(ID_NICKNAME);
         description = map.getString(ID_DESCRITPION);
-        birthday = new Date(map.getLong(ID_BIRTHDAY));
+        birthday = Calendar.getInstance();
+        birthday.setTimeInMillis(map.getLong(ID_BIRTHDAY));
         photo = new BitmapDrawable(res, loadBitmapFromAsset(map.getAsset(ID_PHOTO), mGoogleApiClient));
     }
 
@@ -63,7 +61,7 @@ public class Profile {
         map.putString(ID_NAME, name);
         map.putString(ID_NICKNAME, nickname);
         map.putString(ID_DESCRITPION, description);
-        map.putLong(ID_BIRTHDAY, birthday.getTime());
+        map.putLong(ID_BIRTHDAY, birthday.getTimeInMillis());
         map.putAsset(ID_PHOTO, toAsset(photo.getBitmap()));
         return map;
     }

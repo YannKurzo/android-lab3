@@ -5,7 +5,6 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.ListFragment;
-import android.text.format.DateFormat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +13,8 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.text.DateFormat;
 
 import kurzo.yann.lab3.commons.Profile;
 
@@ -117,9 +118,9 @@ public class ProfileListFragment extends ListFragment {
                 ((TextView) row.findViewById(R.id.profile_description)).setText(profile.description);
 
                 // Format the date as a string according to the user's locale settings
-                java.text.DateFormat dateFormat = DateFormat.getDateFormat(getActivity());
                 ((TextView) row.findViewById(R.id.profile_birthday)).
-                        setText("Birthday: " + dateFormat.format(profile.birthday));
+                        setText("Birthday: " + DateFormat.getDateInstance(DateFormat.SHORT).
+                                format(profile.birthday.getTime()));
             }
 
             // We do not display the full description in the list

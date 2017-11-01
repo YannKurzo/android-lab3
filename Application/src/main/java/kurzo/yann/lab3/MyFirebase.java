@@ -21,8 +21,6 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
 import java.io.ByteArrayOutputStream;
-import java.util.Calendar;
-import java.util.Date;
 
 import kurzo.yann.lab3.commons.Profile;
 
@@ -75,12 +73,10 @@ public class MyFirebase implements ValueEventListener {
                 profile.name = profileData.child(ID_NAME).getValue(String.class);
                 profile.nickname = profileData.child(ID_NICKNAME).getValue(String.class);
                 profile.description = profileData.child(ID_DESCRITPION).getValue(String.class);
-                profile.birthday = new Date(profileData.child(ID_BIRTHDAY).getValue(Long.class));
+                profile.birthday.setTimeInMillis(profileData.child(ID_BIRTHDAY).getValue(Long.class));
 
                 // Set alarm
-                Calendar birthday = Calendar.getInstance();
-                birthday.setTime(profile.birthday);
-                mProfileListFragment.mAlarmConfig.setAlarm(profile.name, birthday, key);
+                mProfileListFragment.mAlarmConfig.setAlarm(profile.name, profile.birthday, key);
                 key++;
 
                 // Get photo on Firebase storage (photo url stored in online profile)
@@ -163,7 +159,7 @@ public class MyFirebase implements ValueEventListener {
                         mutableData.child(ID_NAME).setValue(profile.name);
                         mutableData.child(ID_NICKNAME).setValue(profile.nickname);
                         mutableData.child(ID_DESCRITPION).setValue(profile.description);
-                        mutableData.child(ID_BIRTHDAY).setValue(profile.birthday.getTime());
+                        mutableData.child(ID_BIRTHDAY).setValue(profile.birthday.getTimeInMillis());
 
                         // Photo URL parameter
                         //noinspection VisibleForTests

@@ -9,8 +9,6 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.text.format.DateFormat;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,9 +18,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import java.text.ParseException;
+import java.text.DateFormat;
 import java.util.Calendar;
-import java.util.Date;
 
 import kurzo.yann.lab3.commons.Profile;
 
@@ -43,7 +40,7 @@ public class ProfileFormFragment extends Fragment {
 
     private View fragmentView;
 
-    private Date userBirthday;
+    private Calendar userBirthday;
     private ImageView userImage;
     private static Uri imageUri;
 
@@ -88,9 +85,9 @@ public class ProfileFormFragment extends Fragment {
         final Button buttonBirthday = fragmentView.findViewById(R.id.buttonBirthday);
 
         // Default value is today
-        userBirthday = Calendar.getInstance().getTime();
-        java.text.DateFormat dateFormat = DateFormat.getDateFormat(getActivity());
-        buttonBirthday.setText(dateFormat.format(userBirthday));
+        userBirthday = Calendar.getInstance();
+        buttonBirthday.setText(DateFormat.getDateInstance(DateFormat.SHORT).
+                format(userBirthday.getTime()));
 
         // Update button text
         final DatePickerDialog.OnDateSetListener mDateSetListener = new
@@ -98,13 +95,10 @@ public class ProfileFormFragment extends Fragment {
                     @Override
                     public void onDateSet(DatePicker datePicker, int year, int month, int day) {
                         // Format the result as a Date object
-                        Calendar calendar = Calendar.getInstance();
-                        calendar.set(year, month, day);
-                        userBirthday = calendar.getTime();
+                        userBirthday.set(year, month, day);
                         // Format the date as a string according to the user's locale settings
-                        java.text.DateFormat dateFormat = DateFormat.getDateFormat(getActivity());
-                        // Display the time
-                        buttonBirthday.setText(dateFormat.format(userBirthday));
+                        buttonBirthday.setText(DateFormat.getDateInstance(DateFormat.SHORT).
+                                format(userBirthday.getTime()));
                     }
                 };
 
