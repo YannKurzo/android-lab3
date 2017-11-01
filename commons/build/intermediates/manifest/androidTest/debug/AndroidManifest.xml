@@ -13,7 +13,7 @@
         android:label="Tests for kurzo.yann.lab3.commons.test"
         android:targetPackage="kurzo.yann.lab3.commons.test" />
 
-    <application>
+    <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
 
         <activity

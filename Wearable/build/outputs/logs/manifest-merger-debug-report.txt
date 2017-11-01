@@ -1,39 +1,79 @@
 -- Merging decision tree log ---
 manifest
 ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:2:1-53:12
+MERGED from [:commons] C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\commons\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-wearable:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-wearable-11.4.2.aar\4d6542e259a602404b9c037a8529c01b\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\84977d0bff0e200bb5651afb4885173b\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\c3b8061ce4812a53897bf5b634024a50\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\8e48235a63a27514bcffd1a91edbade6\AndroidManifest.xml:16:1-23:12
+MERGED from [com.google.android.gms:play-services-wearable-license:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-11.4.2.aar\2b2289a8c617486fb91505ddef4883e9\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\cf3fe88c66c2956056e3b12a25a7d5f8\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\3b67aad67669ffb9100691d4fc5c64a7\AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\9663bf1920f76620e83dbc71e3010ff1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\b207f7cea8a0e27b4a16416e778f9bab\AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\bc329f65a7f80e6985ae8397a35f5e33\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\029843685d6b17dd46e953f61a3db114\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\385a13739509410965cf3c9a65869c61\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\79d3c7548d3d122d7ac633aec721f120\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\a127eda680d7616b37735f22bb2f3c76\AndroidManifest.xml:17:1-27:12
+INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:2:1-53:12
 	package
 		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:3:5-30
 	android:versionName
 		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:2:1-53:12
+		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:2:1-53:12
 		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:2:11-69
-	android:versionCode
-		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml
 uses-feature#android.hardware.type.watch
 ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:5:5-64
 	android:name
 		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:5:19-61
 application
 ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:7:5-52:19
-MERGED from [Lab3:commons:unspecified] C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\commons\build\intermediates\bundles\default\AndroidManifest.xml:11:5-20
-MERGED from [com.google.android.gms:play-services-wearable:11.0.4] C:\Users\Yann\.android\build-cache\3eb293abea8108b82380dd55c94901005f4b27e4\output\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Yann\.android\build-cache\288b1aa4451a28ee582e50f188b2cba111bb4b9e\output\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Yann\.android\build-cache\9beea5a792615435c64f31848da858c9e4f691f8\output\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Yann\.android\build-cache\62e7b30bad9da3886b7458942e308f49c750e05d\output\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Yann\.android\build-cache\53e0c4edea8139915db90234ae224a58b9fa6d6f\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Yann\.android\build-cache\c2e87b362e5fb55d9b945ca1b2ddc4ff32136a1f\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Yann\.android\build-cache\752bd23173d7d1e984f5376153d7b6627aec4276\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Yann\.android\build-cache\fda98c96246b4f2b1037c8f7d249e15470ef8fa1\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Yann\.android\build-cache\3ad45b852174252cafcd51527cad5834a946db96\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Yann\.android\build-cache\e75a0c55a7331600813f35f13e52e84dcd2a9f53\output\AndroidManifest.xml:25:5-20
+MERGED from [:commons] C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\commons\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
+MERGED from [:commons] C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\commons\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-wearable:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-wearable-11.4.2.aar\4d6542e259a602404b9c037a8529c01b\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-wearable:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-wearable-11.4.2.aar\4d6542e259a602404b9c037a8529c01b\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\84977d0bff0e200bb5651afb4885173b\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\84977d0bff0e200bb5651afb4885173b\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\c3b8061ce4812a53897bf5b634024a50\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\c3b8061ce4812a53897bf5b634024a50\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\8e48235a63a27514bcffd1a91edbade6\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\8e48235a63a27514bcffd1a91edbade6\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-wearable-license:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-11.4.2.aar\2b2289a8c617486fb91505ddef4883e9\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-wearable-license:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-11.4.2.aar\2b2289a8c617486fb91505ddef4883e9\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\cf3fe88c66c2956056e3b12a25a7d5f8\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\cf3fe88c66c2956056e3b12a25a7d5f8\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\3b67aad67669ffb9100691d4fc5c64a7\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\3b67aad67669ffb9100691d4fc5c64a7\AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\9663bf1920f76620e83dbc71e3010ff1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\9663bf1920f76620e83dbc71e3010ff1\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\b207f7cea8a0e27b4a16416e778f9bab\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\b207f7cea8a0e27b4a16416e778f9bab\AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\bc329f65a7f80e6985ae8397a35f5e33\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\bc329f65a7f80e6985ae8397a35f5e33\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\029843685d6b17dd46e953f61a3db114\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\029843685d6b17dd46e953f61a3db114\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\385a13739509410965cf3c9a65869c61\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\385a13739509410965cf3c9a65869c61\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\79d3c7548d3d122d7ac633aec721f120\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\79d3c7548d3d122d7ac633aec721f120\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\a127eda680d7616b37735f22bb2f3c76\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\a127eda680d7616b37735f22bb2f3c76\AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:10:9-41
-	android:allowBackup
-		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:8:9-35
 	android:icon
 		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:11:9-59
 meta-data#com.google.android.wearable.standalone
@@ -44,7 +84,8 @@ ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\
 		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:14:13-66
 meta-data#com.google.android.gms.version
 ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:17:9-19:65
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Yann\.android\build-cache\62e7b30bad9da3886b7458942e308f49c750e05d\output\AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\8e48235a63a27514bcffd1a91edbade6\AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\8e48235a63a27514bcffd1a91edbade6\AndroidManifest.xml:20:9-121
 	android:value
 		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:19:9-62
 	android:name
@@ -101,30 +142,55 @@ ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\
 		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml:49:27-73
 uses-sdk
 INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [Lab3:commons:unspecified] C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\commons\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-wearable:11.0.4] C:\Users\Yann\.android\build-cache\3eb293abea8108b82380dd55c94901005f4b27e4\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Yann\.android\build-cache\288b1aa4451a28ee582e50f188b2cba111bb4b9e\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Yann\.android\build-cache\9beea5a792615435c64f31848da858c9e4f691f8\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Yann\.android\build-cache\62e7b30bad9da3886b7458942e308f49c750e05d\output\AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Yann\.android\build-cache\53e0c4edea8139915db90234ae224a58b9fa6d6f\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Yann\.android\build-cache\c2e87b362e5fb55d9b945ca1b2ddc4ff32136a1f\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Yann\.android\build-cache\752bd23173d7d1e984f5376153d7b6627aec4276\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Yann\.android\build-cache\fda98c96246b4f2b1037c8f7d249e15470ef8fa1\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Yann\.android\build-cache\3ad45b852174252cafcd51527cad5834a946db96\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Yann\.android\build-cache\e75a0c55a7331600813f35f13e52e84dcd2a9f53\output\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml
+MERGED from [:commons] C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\commons\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:commons] C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\commons\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-wearable:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-wearable-11.4.2.aar\4d6542e259a602404b9c037a8529c01b\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-wearable-11.4.2.aar\4d6542e259a602404b9c037a8529c01b\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\84977d0bff0e200bb5651afb4885173b\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\84977d0bff0e200bb5651afb4885173b\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\c3b8061ce4812a53897bf5b634024a50\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\c3b8061ce4812a53897bf5b634024a50\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\8e48235a63a27514bcffd1a91edbade6\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\8e48235a63a27514bcffd1a91edbade6\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wearable-license:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-11.4.2.aar\2b2289a8c617486fb91505ddef4883e9\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-wearable-license:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-11.4.2.aar\2b2289a8c617486fb91505ddef4883e9\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\cf3fe88c66c2956056e3b12a25a7d5f8\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\cf3fe88c66c2956056e3b12a25a7d5f8\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\3b67aad67669ffb9100691d4fc5c64a7\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\3b67aad67669ffb9100691d4fc5c64a7\AndroidManifest.xml:4:5-43
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\9663bf1920f76620e83dbc71e3010ff1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\9663bf1920f76620e83dbc71e3010ff1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\b207f7cea8a0e27b4a16416e778f9bab\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\b207f7cea8a0e27b4a16416e778f9bab\AndroidManifest.xml:4:5-43
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\bc329f65a7f80e6985ae8397a35f5e33\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-fragment-25.2.0.aar\bc329f65a7f80e6985ae8397a35f5e33\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\029843685d6b17dd46e953f61a3db114\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.2.0.aar\029843685d6b17dd46e953f61a3db114\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\385a13739509410965cf3c9a65869c61\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.2.0.aar\385a13739509410965cf3c9a65869c61\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\79d3c7548d3d122d7ac633aec721f120\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\79d3c7548d3d122d7ac633aec721f120\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\a127eda680d7616b37735f22bb2f3c76\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\a127eda680d7616b37735f22bb2f3c76\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:support-v4:25.2.0] C:\Users\Yann\.android\build-cache\53e0c4edea8139915db90234ae224a58b9fa6d6f\output\AndroidManifest.xml:23:9-51
+		ADDED from [com.android.support:support-v4:25.2.0] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\support-v4-25.2.0.aar\9663bf1920f76620e83dbc71e3010ff1\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
 		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Yann\Documents\AndroidStudioProjects\Lab3\Wearable\src\main\AndroidManifest.xml
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Yann\.android\build-cache\288b1aa4451a28ee582e50f188b2cba111bb4b9e\output\AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\84977d0bff0e200bb5651afb4885173b\AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Yann\.android\build-cache\288b1aa4451a28ee582e50f188b2cba111bb4b9e\output\AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\84977d0bff0e200bb5651afb4885173b\AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Yann\.android\build-cache\288b1aa4451a28ee582e50f188b2cba111bb4b9e\output\AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\84977d0bff0e200bb5651afb4885173b\AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Yann\.android\build-cache\288b1aa4451a28ee582e50f188b2cba111bb4b9e\output\AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] C:\Users\Yann\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\84977d0bff0e200bb5651afb4885173b\AndroidManifest.xml:19:19-85

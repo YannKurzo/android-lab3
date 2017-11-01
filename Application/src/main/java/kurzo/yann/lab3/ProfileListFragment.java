@@ -80,8 +80,6 @@ public class ProfileListFragment extends ListFragment {
 
     public void clearProfileList() {
         adapter.clear();
-        //mMyFirebase.clearProfilesFromFirebase();
-        //mMyFirebase.clearImagesFromStorage();
         mAlarmConfig.cancelAlarms();
     }
 

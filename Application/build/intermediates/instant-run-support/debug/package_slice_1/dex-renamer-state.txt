@@ -1,4 +1,4 @@
-#Wed Nov 01 00:27:24 CET 2017
-base.0=C\:\\Users\\Yann\\Documents\\AndroidStudioProjects\\Lab3\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1
+#Wed Nov 01 13:35:08 CET 2017
+base.0=C\:\\Users\\Yann\\Documents\\AndroidStudioProjects\\Lab3\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 renamed.0=classes.dex
-file.0=C\:\\Users\\Yann\\Documents\\AndroidStudioProjects\\Lab3\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1\\classes.dex
+file.0=C\:\\Users\\Yann\\Documents\\AndroidStudioProjects\\Lab3\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\1\\classes.dex

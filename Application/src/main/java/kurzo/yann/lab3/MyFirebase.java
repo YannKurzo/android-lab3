@@ -63,7 +63,7 @@ public class MyFirebase implements ValueEventListener {
     public void onDataChange(DataSnapshot dataSnapshot) {
         // Clear profile list before reloading
         mProfileListFragment.clearProfileList();
-        mProfileListFragment.mAlarmConfig.cancelAlarms();
+
         int key = 123;
 
         // For each profile
@@ -148,7 +148,7 @@ public class MyFirebase implements ValueEventListener {
         uploadTask.addOnFailureListener(new OnFailureListener() {
             @Override
             public void onFailure(@NonNull Exception exception) {
-                Log.v(TAG, "Fail to load the picture");
+                Log.v(TAG, "Fail to upload the picture");
             }
         }).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
             @Override

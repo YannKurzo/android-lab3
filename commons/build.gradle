@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 26
-    buildToolsVersion "26.0.1"
+    buildToolsVersion '26.0.2'
 
     defaultConfig {
         minSdkVersion 18
@@ -13,5 +13,5 @@ android {
 }
 
 dependencies {
-    compile 'com.google.android.gms:play-services-wearable:11.0.4'
+    compile 'com.google.android.gms:play-services-wearable:11.4.2'
 }
