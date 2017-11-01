@@ -221,12 +221,12 @@ public class MyFirebase implements ValueEventListener {
                                 // Remove image key
                                 imageKeyData.getRef().removeValue();
 
-                                Log.d(TAG, "Image successfully deleted!");
+                                Log.d(TAG, "Images successfully deleted!");
                             }
                         }).addOnFailureListener(new OnFailureListener() {
                             @Override
                             public void onFailure(@NonNull Exception e) {
-                                Log.d(TAG, "Failed deleting image");
+                                Log.d(TAG, "Failed deleting images");
                             }
                     });
                 }
