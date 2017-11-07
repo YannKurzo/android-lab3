@@ -129,12 +129,11 @@ public class ProfileFormFragment extends Fragment {
     }
 
     // Open a dialog to choose an image
-    public void onClickChooseImage(View view) {
+    public void onClickChooseImage() {
         Intent intent = new Intent();
         intent.setType("image/*");
         intent.setAction(Intent.ACTION_GET_CONTENT);
-        startActivityForResult(Intent.createChooser(intent, "Select Picture"),
-                PICK_IMAGE);
+        startActivityForResult(Intent.createChooser(intent, "Select Picture"), PICK_IMAGE);
     }
 
     @Override
@@ -156,6 +155,7 @@ public class ProfileFormFragment extends Fragment {
                 }
                 else {
                     imageUri = null;
+                    onClickChooseImage();
                 }
                 break;
         }

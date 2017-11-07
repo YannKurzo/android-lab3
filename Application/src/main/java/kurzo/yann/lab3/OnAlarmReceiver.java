@@ -4,13 +4,17 @@ import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.media.RingtoneManager;
 import android.net.Uri;
+import android.preference.PreferenceManager;
 import android.support.v4.app.NotificationManagerCompat;
 import android.support.v4.app.NotificationCompat;
 import android.widget.Toast;
+
+import java.util.Arrays;
 
 /**
  * Created by Yann on 31/10/2017.
@@ -26,8 +30,6 @@ public class OnAlarmReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         BDname = intent.getStringExtra("name");
-        Toast.makeText(context, "Today is " + BDname + "'s birthday !",
-                Toast.LENGTH_LONG).show();
 
         sendNotification(context, "Birthday Notification",
                 "Today is " + BDname + "'s birthday!",
@@ -35,25 +37,44 @@ public class OnAlarmReceiver extends BroadcastReceiver {
     }
 
     private void sendNotification(Context context, String title, String text, int id) {
-        NotificationManagerCompat mNotificationManager = NotificationManagerCompat.from(context);
-        NotificationCompat.Builder mNotification = new NotificationCompat.Builder(context);
 
-        mNotification.setContentTitle(title);
-        mNotification.setContentText(text);
-        mNotification.setSmallIcon(R.drawable.birthday_cake);
-        mNotification.setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.drawable.birthday_cake));
+        // Get preferences
+        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(context);
+        boolean birthdayNotificationActivated = sharedPref.getBoolean("notifications_birthday", true);
+        boolean birthadyToastActivated = sharedPref.getBoolean("toast_birthday", true);
 
-        mNotification.setVibrate(new long[] { 1000, 1000, 1000, 1000, 1000 });
-        Uri uriSound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
-        mNotification.setSound(uriSound);
+        if(birthdayNotificationActivated) {
 
-        Intent intent = new Intent(context,MainActivity.class);
-        PendingIntent pendingIntent = PendingIntent.getActivity(context, id, intent,0);
-        mNotification.setContentIntent(pendingIntent);
-        mNotification.setAutoCancel(true);
-        mNotificationManager.notify(id, mNotification.build());
+            // Get ringtone and vibrate preferences
+            String strRingtone = sharedPref.getString("notifications_birthday_ringtone",
+                    "content://settings/system/notification_sound");
+            boolean vibrateActivated = sharedPref.getBoolean("notifications_birthday_vibrate", true);
 
-        int idNotification = intent.getIntExtra("keyNotification",0);
-        sendNotification(context,"Birthday Notification","Today is " + BDname + "'s birthday !", idNotification);
+            // Build notification
+            NotificationManagerCompat mNotificationManager = NotificationManagerCompat.from(context);
+            NotificationCompat.Builder mNotification = new NotificationCompat.Builder(context, "BirthdayNotificationChannel");
+
+            mNotification.setContentTitle(title);
+            mNotification.setContentText(text);
+            mNotification.setSmallIcon(R.drawable.birthday_cake);
+
+            if(vibrateActivated) {
+                String vibrationMode = sharedPref.getString("notification_birthday_vibration_list", "1");
+                long values[] = new long[2*Integer.parseInt(vibrationMode)];
+                Arrays.fill(values, 1000);
+                mNotification.setVibrate(values);
+            }
+            Uri uriSound = Uri.parse(strRingtone);
+            mNotification.setSound(uriSound);
+
+            Intent intent = new Intent(context, MainActivity.class);
+            PendingIntent pendingIntent = PendingIntent.getActivity(context, id, intent, 0);
+            mNotification.setContentIntent(pendingIntent);
+            mNotification.setAutoCancel(true);
+            mNotificationManager.notify(id, mNotification.build());
+        }
+        if(birthadyToastActivated) {
+            Toast.makeText(context, text, Toast.LENGTH_LONG).show();
+        }
     }
 }

@@ -1,5 +1,6 @@
 package kurzo.yann.lab3;
 
+import android.content.Intent;
 import android.content.IntentSender;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -128,8 +129,12 @@ public class MainActivity extends AppCompatActivity implements
                 MyFirebase.clearProfilesFromFirebase();
                 MyFirebase.clearImagesFromStorage();
                 return true;
-            case R.id.menu_close:
+            case R.id.menu_settings:
+                Intent intent = new Intent(this, SettingsActivity.class);
+                startActivity(intent);
                 return true;
+            case R.id.menu_close:
+                finish();
         }
         return super.onOptionsItemSelected(item);
     }
@@ -185,7 +190,7 @@ public class MainActivity extends AppCompatActivity implements
 
     // Open the choose image view
     public void onClickChooseImage(View view) {
-        mProfileFormFragment.onClickChooseImage(view);
+        mProfileFormFragment.onClickChooseImage();
     }
 
     // Send the image to the wear

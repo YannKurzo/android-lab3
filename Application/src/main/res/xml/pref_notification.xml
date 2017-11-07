@@ -1,0 +1,40 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- A 'parent' preference, which enables/disables child preferences (below)
+         when checked/unchecked. -->
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="notifications_birthday"
+        android:title="@string/pref_birthday_notification" />
+
+    <!-- Allows the user to choose a ringtone in the 'notification' category. -->
+    <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+    <!-- NOTE: RingtonePreference's summary should be set to its value by the activity code. -->
+    <RingtonePreference
+        android:defaultValue="content://settings/system/notification_sound"
+        android:dependency="notifications_birthday"
+        android:key="notifications_birthday_ringtone"
+        android:ringtoneType="notification"
+        android:title="@string/pref_birthday_ringtone" />
+
+    <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+    <SwitchPreference
+        android:defaultValue="true"
+        android:dependency="notifications_birthday"
+        android:key="notifications_birthday_vibrate"
+        android:title="@string/pref_birthday_vibrate" />
+
+    <ListPreference
+        android:defaultValue="Single vibration"
+        android:dependency="notifications_birthday_vibrate"
+        android:entries="@array/pref_birthday_vibration_entries"
+        android:entryValues="@array/pref_birthday_vibration_values"
+        android:key="notification_birthday_vibration_list"
+        android:title="@string/pref_birthday_vibration_list" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="toast_birthday"
+        android:title="@string/pref_birthday_toast" />
+
+</PreferenceScreen>
